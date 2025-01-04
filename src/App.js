@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
 import { useEffect, useState } from 'react';
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import data from './DataBase/portfolio.json';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
@@ -21,12 +21,11 @@ function App() {
     <div className='container-fluid'>
       <Navbar data ={getData}></Navbar>
       <Routes>
-      <Route path='/'  element={<Home data ={getData}/>} exact></Route>
+        <Route path='/'  element={<Home data ={getData}/>}></Route>
         <Route path='/home' element={<Home data ={getData}/>} />
         <Route path='/projects' element={<Projects data ={getData}/>} />
         <Route path='/publications' element={<Publication data ={getData}/>}  />  
         </Routes>
-        
       <Footer />
     </div>
   );
