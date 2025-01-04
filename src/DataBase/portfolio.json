@@ -1,0 +1,53 @@
+{
+    "menu": [
+       {
+          "id": "1",
+          "name": "Home"
+       },
+       {
+          "id": "2",
+          "name": "Projects"
+       },
+       {
+          "id": "1",
+          "name": "Publications"
+       }
+    ],
+    "herobanner": {
+       "header_txt": "Hello, ",
+       "header_description":"I'm Gautam, a seasoned enterprise product designer from SAP Labs Bangalore. Having remarkable 17 years UX journey and a Master’s in Business Administration from IISWBM. I bring a unique blend of business acumen and creative expertise to my work.",
+       "image_url": ""
+    },
+    "about": {
+       "header_txt": "EXPERIENTIAL ON ….. UX Designing, Sports, Art and Culture,  New age technology..",
+       "header_sub_txt": "Awards / Recognitions",
+       "description": " UI Patent - On going SAP Spotlight Award - Issued by SAP Labs India. Dec 2023 IDEATHON 1st prize winner - TCS Digital Software and Solutions - June 2022 Special Initiative Award-TATA Consultancy Services Ltd.. Dec 2021 Contextual Master-TATA Consultancy Services Ltd.. Jan 2021 Innovation Pride Award - TCS Digital Software and Solutions. Dec 2020 Special Initiative Award - TATA Consultancy Service Ltd. Jan 2019",
+       "hobies_txt": "Scroll down to see the hobbies that influence my UX process",
+       "hobbies": [
+          {
+             "id": 1,
+             "name": "Yoga.",
+             "description": "Yoga Chitta Vritti Nirodha” - Yoga is the cessation of the fluctuations of the mind. I am a yoga enthusiast and started practicing yoga from 2018. During Covid lockdown conducted free online sessions. Calm mind always helps me to choose right decision under tremendous pressure and helps other team mates to by spreading positivity to accomplish the any complex situation. I am a Certified Protocol Instructor,Certified by: The Yoga Certification Board, Ministry of AYUSH, Government of India - Dec 2020 ",
+             "imge_url": "yoga.png"
+          },
+          {
+             "id": 1,
+             "name": "Sports.",
+             "description": "Sports are my passion. Since my 3rd grade, I used to spend 3 hours a day in the swimming pool for training until I was 18 years old. I participated in many competitions and won few medals and trophies. Recently I have completed two 10 KM runs and many 5 km runs. I start my day with a 3 km walk every day. Sports have helped me develop a player mindset. I am a good team player, capable of running a team with versatile people and striving to achieve goals without expecting any specific outcome. This mindset has been proven to me.",
+             "imge_url": "sports.png"
+          },
+          {
+             "id": 1,
+             "name": "Acting.",
+             "description": "Satyajit Ray is my inspiration, and I consider him my guru. I have watched all his movies multiple times, which motivates me to perform on stage. Since childhood, I have participated in numerous skits and plays. I've never experienced stage fright. I formed a small Bengali theatre group with individuals from various professions who share a common interest, and I have directed three plays. Here are some pictures of our performances. I find it easy to immerse myself in the characters I portray. Acting has given me immense confidence in overcoming stage fright and has improved my voice modulation skills in public speaking.",
+             "imge_url": "acting.png"
+          },
+          {
+             "id": 1,
+             "name": "Learning New age Technology.",
+             "description": "I am passionate about learning new technologies. I have attended many classes on AI, Machine Learning, Blockchain, Cryptocurrency, and more. One interesting observation I have made is that I may not grasp everything at once, but after attending multiple classes, I gradually understand many of the concepts. I love hands-on learning. After acquiring new knowledge, I start working on small proof-of-concept projects. These often fail, but I learn from each attempt and never give up. This attitude has helped me integrate my designs with underlying technologies, and has also enabled me to assist fellow designers in understanding these technologies in a designer's language.",
+             "imge_url": "tech.png"
+          }
+       ]
+    }
+ }
