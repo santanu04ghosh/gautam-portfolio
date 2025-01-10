@@ -8,6 +8,7 @@ import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Projects from './Components/Projects';
 import Publication from './Components/Publications';
+import ProjectDetailsPage from './Components/ProjectDetailsPage';
 
 function App() {
   console.log(data)
@@ -18,14 +19,16 @@ function App() {
     setGetData(getData)
   },[])
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid p-0'>
       <Navbar data ={getData}></Navbar>
-      <Routes>
-        <Route path='/'  element={<Home data ={getData}/>}></Route>
-        <Route path='/home' element={<Home data ={getData}/>} />
-        <Route path='/projects' element={<Projects data ={getData}/>} />
-        <Route path='/publications' element={<Publication data ={getData}/>}  />  
+      <div className='main_page'>
+        <Routes>
+          <Route path='/'  element={<Home data ={getData}/>}></Route>
+          <Route path='/home' element={<Home data ={getData}/>} />
+          <Route path='/projects' element={<Projects/>} />
+          <Route path='/projects/:id' element={<ProjectDetailsPage/>}  />  
         </Routes>
+      </div>      
       <Footer />
     </div>
   );

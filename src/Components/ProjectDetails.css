@@ -1,0 +1,45 @@
+.project_heading_fileds{
+
+}
+.big_hreading{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.project_details_page{
+    padding: 0 3.5rem;
+}
+.headers_each_details{
+    font-size: 20px;
+    font-weight: 600;
+}
+.header_description_txt{
+    margin-left: 10px;
+}
+.each_details_description_segement{
+    margin: 10px 1rem;
+}
+.each_info{
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 6px 1px #ccc;
+    margin: 1rem;
+    border-radius: 6px;
+    transition: all .2s ease-in-out;
+    height: 500px; /* [1.1] Set it as per your need */
+  overflow: hidden;
+}
+/* .each_info .grow {
+    transition: transform .5s ease;
+  }
+.each_info .grow:hover { transform: scale(1.1); } */
+.header_additional_txt{
+    font-size: 20px;
+    padding: 1rem;
+}
+.btn_click_enlarged{
+    position: absolute;
+    margin-left: 515px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

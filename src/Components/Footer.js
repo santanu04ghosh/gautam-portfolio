@@ -7,7 +7,7 @@ const Footer =() => {
         <div className="footer_section">
             <div className="footer_field">Reach Out!</div>
             <div className="reached_out_section">
-                <div className="d-flex">
+                <div className="d-flex flex-wrap">
                     <div className="each_field_button">
                         <div className="download_resume"><a href="/images/myw3schoolsimage.jpg" download>Download Resume</a></div>
                     </div>

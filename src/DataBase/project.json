@@ -1,0 +1,141 @@
+{
+    "projects":[
+        {
+            "id":"proj1",
+            "passkey":"imgautam",
+            "heading":"SELF-SERVICE AI PLATFORM",
+            "description":"Put Machine Learning & Data Science into the hands of business users gives marketing teams agile, flexible tools to experiment with combinations and improve their targeting without having to burden over-worked data science resources.",
+            "thumnailsrc":"Project1Thumbnail.png",
+            "detaildescription":{
+                "heading":"Background and challenge",
+                "statements":[
+                    {
+                        "id":"state1","heading":"Product Development Period","subheading":"","heading_details":"Began during the COVID-19 pandemic when global uncertainty was high.","details":[]
+                    },
+                    {
+                        "id":"state2","heading":"Budget","subheading":"","heading_details":"Significant budget allocated to create a future-ready self-service AI platform.","details":[]
+                    },
+                    {
+                        "id":"state3","heading":"Team Composition at the conceptual","subheading":"","heading_details":"","details":[
+                            {"id":"1","value":"- 3 Data Scientists"},
+                            {"id":"2","value":"- 1 Statistician"},
+                            {"id":"3","value":"- 1 Architect"},
+                            {"id":"4","value":"- 1 Me (UX Designer)"}
+                        ]
+                    },
+                    {
+                        "id":"state4","heading":"Challenges and Learning Curve","subheading":"Steep Learning Curve:","heading_details":"","details":[
+                            {"id":"1","value":"- Completed multiple courses on data science to understand AI tools like Alteryx, IBM Watson, and Data Robot etc."}
+                            
+                        ]
+                    },
+                    {
+                        "id":"state5","heading":"Early Stages","subheading":"Brainstorming and Questioning:","heading_details":"","details":[
+                            {"id":"1","value":"- Collaborated with stakeholders to ask critical questions and brainstorm ideas."},
+                            {"id":"2","value":"- The concept was abstract, leading to multiple assumptions which were documented and verified with Subject Matter Experts (SMEs)."}
+                            
+                        ]
+                    },
+                    {
+                        "id":"state6","heading":"Prototyping Phase","subheading":"Iterative Design:","heading_details":"","details":[
+                            {"id":"1","value":"- Created at least 35 different UI design and interaction patterns before finalizing the concept."},
+                            {"id":"2","value":"- Uncovered multiple previously unknown requirements from stakeholders during these discussions."},
+                            {"id":"3","value":"- Aligned all stakeholders on a single vision, ensuring satisfaction across the board."}
+                            
+                        ]
+                    },
+                    {
+                        "id":"state7","heading":"Achievements","subheading":"","heading_details":"","details":[
+                            {"id":"1","value":"- Successfully harmonized diverse stakeholder needs to create a cohesive platform."},
+                            {"id":"2","value":"- Recognized with a “Special Initiative Award” for developing this application."}
+                            
+                        ]
+                    }
+                ]
+            },
+            "additionalsegment":{
+                "header":"I have created the following use case to better understand this platform.",
+                "listurls":[
+                    {
+                        "id":"add1","imageurl":"P1_Usecase.png","type":"image"
+                    },
+                    {
+                        "id":"add2","imageurl":"","videourl":"P1_sspSmall.mp4","type":"video"
+                    },
+                    {
+                        "id":"add3","imageurl":"P1_IA.png","type":"image"
+                    }
+                ]
+            }
+        },
+        {
+            "id":"proj2",
+            "passkey":"",
+            "heading":"SELF-SERVICE AI PLATFORM",
+            "description":"Put Machine Learning & Data Science into the hands of business users gives marketing teams agile, flexible tools to ",
+            "thumnailsrc":"Project1Thumbnail.png",
+            "detaildescription":{
+                "heading":"Background and challenge",
+                "statements":[
+                    {
+                        "id":"state1","heading":"Product Development Period","subheading":"","details":"Began during the COVID-19 pandemic when global uncertainty was high."
+                    },
+                    {
+                        "id":"state2","heading":"Budget","subheading":"","details":"Significant budget allocated to create a future-ready self-service AI platform."
+                    },
+                    {
+                        "id":"state3","heading":"Team Composition at the conceptual:","subheading":"","details":[
+                            {"id":"1","value":"- 3 Data Scientists"},
+                            {"id":"2","value":"- 1 Statistician"},
+                            {"id":"3","value":"- 1 Architect"},
+                            {"id":"4","value":"- 1 Me (UX Designer)"}
+                        ]
+                    },
+                    {
+                        "id":"state4","heading":"Challenges and Learning Curve:","subheading":"Steep Learning Curve:","details":[
+                            {"id":"1","value":"- Completed multiple courses on data science to understand AI tools like Alteryx, IBM Watson, and Data Robot etc."}
+                            
+                        ]
+                    },
+                    {
+                        "id":"state5","heading":"Early Stages:","subheading":"Brainstorming and Questioning:","details":[
+                            {"id":"1","value":"- Collaborated with stakeholders to ask critical questions and brainstorm ideas."},
+                            {"id":"2","value":"- The concept was abstract, leading to multiple assumptions which were documented and verified with Subject Matter Experts (SMEs)."}
+                            
+                        ]
+                    },
+                    {
+                        "id":"state6","heading":"Prototyping Phase:","subheading":"Iterative Design:","details":[
+                            {"id":"1","value":"- Created at least 35 different UI design and interaction patterns before finalizing the concept."},
+                            {"id":"2","value":"- Uncovered multiple previously unknown requirements from stakeholders during these discussions."},
+                            {"id":"3","value":"- Aligned all stakeholders on a single vision, ensuring satisfaction across the board."}
+                            
+                        ]
+                    },
+                    {
+                        "id":"state7","heading":"Achievements:","subheading":"","details":[
+                            {"id":"1","value":"- Successfully harmonized diverse stakeholder needs to create a cohesive platform."},
+                            {"id":"2","value":"- Recognized with a “Special Initiative Award” for developing this application."}
+                            
+                        ]
+                    }
+                ]
+            },
+            "additionalsegment":{
+                "header":"I have created the following use case to better understand this platform.",
+                "listurls":[
+                    {
+                        "id":"add1","imageurl":"","videourl":"","text_only":""
+                    },
+                    {
+                        "id":"add2","imageurl":"","videourl":"","text_only":""
+                    },
+                    {
+                        "id":"add3","imageurl":"","videourl":"","text_only":""
+                    }
+                ]
+            }
+        }
+        
+    ]
+}

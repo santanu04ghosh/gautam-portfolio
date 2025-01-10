@@ -22,7 +22,13 @@ const About = (props) => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="header_size sub_heder_header">{about.header_sub_txt}</div>
-                        <div className="sub_header_body">{about.description}</div>
+                        <div className="sub_header_body">
+                        {about.description.map((items, index) => (
+                            <ul>
+                                <li key={items.id}>{items.details}</li>
+                            </ul>
+                        ))}
+                        </div>
                     </div>
                     <div className="col-md-6">
                         <div className="image_about">

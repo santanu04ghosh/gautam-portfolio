@@ -21,7 +21,14 @@
     "about": {
        "header_txt": "EXPERIENTIAL ON ….. UX Designing, Sports, Art and Culture,  New age technology..",
        "header_sub_txt": "Awards / Recognitions",
-       "description": " UI Patent - On going SAP Spotlight Award - Issued by SAP Labs India. Dec 2023 IDEATHON 1st prize winner - TCS Digital Software and Solutions - June 2022 Special Initiative Award-TATA Consultancy Services Ltd.. Dec 2021 Contextual Master-TATA Consultancy Services Ltd.. Jan 2021 Innovation Pride Award - TCS Digital Software and Solutions. Dec 2020 Special Initiative Award - TATA Consultancy Service Ltd. Jan 2019",
+       "description":[
+         {"id":"awd1","details":"UI Patent - On going SAP Spotlight Award - Issued by SAP Labs India."},
+         {"id":"awd2","details":"Dec 2023 IDEATHON 1st prize winner - TCS Digital Software and Solutions."},
+         {"id":"awd3","details":"June 2022 Special Initiative Award-TATA Consultancy Services Ltd.."},
+         {"id":"awd4","details":"Dec 2021 Contextual Master-TATA Consultancy Services Ltd.."},
+         {"id":"awd5","details":"Jan 2021 Innovation Pride Award - TCS Digital Software and Solutions."},
+         {"id":"awd6","details":" Dec 2020 Special Initiative Award - TATA Consultancy Service Ltd. Jan 2019"}
+       ],
        "hobies_txt": "Scroll down to see the hobbies that influence my UX process",
        "hobbies": [
           {
