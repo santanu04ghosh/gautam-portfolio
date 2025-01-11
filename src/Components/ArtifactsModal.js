@@ -11,9 +11,9 @@ const ArtifactsModal = ({isOpen, media, mediaType,onClose}) => {
                     <div className="close_btn_artifacts" onClick={onClose}><i class="bi bi-x-lg"></i></div>
                     <div className="image_large_section">
                         {mediaType === "image" ? (
-                            <img src={media} alt="Enlarged" style={{width:"100%",height:"100%", objectFit:"contain",borderRadius:"8px"}} />
+                            <img src={media} className="img-fluid" alt="Enlarged" style={{width:"100%",height:"100%", objectFit:"contain",borderRadius:"8px"}} />
                         ):(
-                            <video src={media} controls style={{width:"100%",height:"100%", objectFit:"contain",borderRadius:"8px"}} />
+                            <div className="ratio ratio-16x9"><video src={media} controls style={{width:"100%",height:"100%", objectFit:"contain",borderRadius:"8px"}} /></div>
                         )}
                     </div>
                 </div>

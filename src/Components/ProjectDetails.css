@@ -44,3 +44,12 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 760px) {
+    .project_details_page{
+        padding: 1rem;
+    }
+    .big_hreading{
+        font-size: 18px;
+    }
+}

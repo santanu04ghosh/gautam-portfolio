@@ -8,7 +8,7 @@ const Home = (props) => {
     console.log(props.data)
     return(
         <div className="container-fluid">
-            <div className="main_page">
+            <div className="main_page_all">
                 <div className="section">
                     <div className="hero_section">
                         <HeroBanner herodata = {data.herobanner} />

@@ -102,7 +102,7 @@ const renderAdditionSection = (additionaldetails) => {
                 <div className="heading_description big_hreading">{detaildescription.heading}</div>
                 {detaildescription.statements.map((items, index) => (
                     <div className="each_details_description_segement" key={index}>
-                        <div className="d-flex align-items-center">
+                        <div className="d-flex flex-wrap align-items-center">
                             <div className="headers_each_details">{items.heading}:</div>
                             {items.heading_details ? <div className="header_description_txt">{items.heading_details}</div>:''}
                         </div>
