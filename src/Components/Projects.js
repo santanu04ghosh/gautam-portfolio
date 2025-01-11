@@ -26,7 +26,7 @@ const handelProjectClick = (project) => {
             <div className="heading_project heading_text">Projects</div>            
             <div className="row">
                 {projects.map((project,index) => (
-                    <div className="col-md-6">
+                    <div className="col-md-4">
                         <div className="custom_adjust">
                         <div className="each_project" key={index}>
                             <div className="thumnai_image"><img src={imageMap[project.thumnailsrc]} alt={project.id}  className="img-fluid" /></div>

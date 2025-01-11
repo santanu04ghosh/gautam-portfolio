@@ -21,7 +21,7 @@
   z-index: 999;
 }
 .main_page{
-  padding: 1.2rem;
+  padding: 2.5rem;
 }
 .navbar_section{
   display: flex;
@@ -149,6 +149,7 @@
     padding: 1rem;
     border-radius: 6px;
     text-align: center;
+    margin-bottom: 1rem;
 }
 .thumnai_image{
   display: flex;
@@ -247,7 +248,7 @@ a:hover{
 
 @media only screen and (max-width: 760px) {
   .main_page{
-    padding: 0;
+    padding: 10px;
   }
   .sub_heading_hero{
     margin-bottom: 1.5rem;
